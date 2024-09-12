@@ -108,6 +108,15 @@ section#feature {
 
 section#about {
   background: url('./images-LP/Ese-Bata-Logos-1600x900-res.png') no-repeat center center/cover;
+  backdrop-filter: blur(10px);
+}
+
+#about .about-des{
+  background-color: black;
+  margin: 0 20px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 25px 20px;
 }
 
 section#contact {
@@ -119,7 +128,7 @@ section#video {
 }
 
 #about p{
-  background-color: azure;
+  /* background-color: azure; */
 }
   </style>
 </head>
@@ -149,8 +158,12 @@ section#video {
     </section>
 
     <section id="about">
-        <p class="descr">The cobbler's story easily becomes good news and appearance of poise. I once had my friend make shoes joyously while we studied. If only I could think of ways more cobblers made people happy and are rewarded with increased sales, so I thought... </p>
-        <span>A Holberton School Portfolio Project <a href="https://intranet.alxswe.com/projects/565">Portfolio Project</a></span>
+      <div class="about-des">
+        <p class="descr">The cobbler's story easily becomes good news and appearance of poise. I once had my friend make shoes joyously while we studied. If only I could think of ways more cobblers made people happy and are rewarded with increased sales, so I thought... <br><hr>
+          <i style="font-size: 0.5rem;">A Holberton School Portfolio Project for Month 8 rounding up ALX Foundations</i>
+        </p>
+      </div>
+        <a href="https://intranet.alxswe.com/projects/565">Portfolio Project</a>
         <div class="links">
           <p><a href="https://www.linkedin.com/in/olayemi-adekogbe/">To LinkedIn</a></p>
           <p><a href="https://github.com/ZeroAddict/"></a>To GitHub</p>
