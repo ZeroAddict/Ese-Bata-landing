@@ -124,8 +124,21 @@ section#contact {
 }
 
 section#video {
-  background: url('images-LP/optional-video-on-landing page.mp4');
+width: 80%;
+height: 30vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
 }
+
+
+.v1, .v2{
+  width: 40%;
+  align-items: center;
+  margin: 50px auto;
+}
+
 
 #about p{
   /* background-color: azure; */
@@ -150,7 +163,7 @@ section#video {
     <section id="home">
       <h1>Ese Bàta</h1>
       <p class="descr">Where matchless craftmanship meets graceful feet.<br>Find your befitting and worthy  match here. Look no further!</p>
-      <button class="btn-deploy">Deployed Project</button>
+       <a href="https://zeroaddict.github.io/Ese-Bata-landing/"><button class="btn-deploy">Deployed Project</button></a>
     </section>
     <section id="feature">
         <h1>Happy Feet, Great Shoes!</h1>
@@ -177,6 +190,15 @@ section#video {
         <p class="descr">You can reach us on our social media handles...
           <!-- Add f, insta, GM, and ... handles -->
         </p>
+
+    </section>
+    <section id="video">
+      <div class="v1">
+        <video controls><source src="./images-LP/VID_20240912_231844.mp4" type="video/mp4"></video>
+      </div>
+      <div class="v2">
+        <video controls><source src="./images-LP/VID_20240912_232959.mp4" type="video/mp4"></video>
+      </div>
     </section>
   </div>
 </body>
