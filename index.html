@@ -18,6 +18,39 @@ body {
   overflow: hidden;
 }
 
+section#video {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.v1, .v2 {
+  flex: 1;
+  min-width: 280px;
+  max-width: 480px;
+}
+
+.v1 video, .v2 video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+    
 /* CSS SmoothScroll */
 .container {
   width: 100%;
@@ -194,12 +227,14 @@ align-items: center;
 
     </section>
     <section id="video">
+    <div class= "video-container">
       <div class="v1">
         <video controls><source src="./images-LP/VID_20240912_231844.mp4" type="video/mp4"></video>
       </div>
       <div class="v2">
         <video controls><source src="./images-LP/VID_20240912_232959.mp4" type="video/mp4"></video>
       </div>
+    /div>
     </section>
   </div>
 </body>
